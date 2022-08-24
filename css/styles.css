@@ -177,6 +177,7 @@ li .social-network i {
   max-width: 100%;
   border-radius: 8px;
   margin-bottom: 350px; 
+
 }
 
 .section-works h1 {
@@ -287,7 +288,6 @@ li .social-network i {
   color: #396df2;
 }
 
-
 /* End of Styling anchor tags   */
 .project-title .title {
   height: 36px;
@@ -350,6 +350,11 @@ li .social-network i {
   align-items: center;
 }
 
+/* Styling anchor tags */
+a {
+  text-decoration: none;
+}
+
 .frame-7 a {
   height: 24px;
   width: 237px;
@@ -378,14 +383,9 @@ li .social-network i {
   flex-direction: column;
   align-items: center;
 
-  /* gap: 12px;*/
+  /* gap: 12px; */
 
   margin-bottom: 36px;
-}
-
-/* Styling anchor tags */
-a {
-  text-decoration: none;
 }
 
 .frame-12 ul li {
