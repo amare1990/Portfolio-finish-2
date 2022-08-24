@@ -15,38 +15,47 @@ body {
   line-height: 24px;
 }
 
+.background-color {
+  background-color: #fff;
+}
+
 .wrapper {
   height: 5410px;
   max-width: 810px;
-  background: #fff;
+  /* background: #fff;  */
+  background-color: #E5E5E5;
   display: grid;
   grid-template-rows: 0.04fr 0.32fr 0.32fr 0.32fr;
+  /* row-gap: 20px; */
+  grid-row-gap: 50px;
 }
 
 .container-homepage {
   /* position: absolute; */
 
-  background-image: url("/images/header-shapes-mobile.png");
-  height: 604.0000610351562px;
-  max-width: 100%;
+  
 
+  background: url("/images/header-shapes-mobile.png") no-repeat center center;
+  /*  height: 604.0000610351562px;
+  max-width: 100%; */
+  border-bottom-left-radius: 80px;
+  background-color: #fff;
   /*
   left: calc(50% - 375px / 2);
   top: 92px;
   */
 
-  padding: 114px, 24px, 114px, 24px;
+  /*padding: 114px, 24px, 114px, 24px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 12px; */
 }
 
 .header-2 {
   height: 48px;
-  max-width: 100%;
-  margin-left: 24px;
-  margin-right: 24px;
+  /* max-width: 100%; */
+  margin: 58px 24px 0 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -80,13 +89,9 @@ body {
 }
 
 li a i {
-  position: absolute;
-  left: 16.67%;
-  right: 16.67%;
-  top: 29.17%;
-  bottom: 70.83%;
   color: #6070ff;
   width: 16px;
+  margin-bottom: 138px;
 }
 
 .menu-bar button i {
@@ -178,8 +183,8 @@ li .social-network i {
 }
 
 .card-works {
-  height: 220px;
-  max-width: 100%;
+  /* height: 220px;
+   max-width: 100%; */
   border-radius: 8px;
   margin-bottom: 350px;
 }
