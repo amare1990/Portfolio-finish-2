@@ -1,17 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.container {
-  position: relative;
-
-  /* background-image: url('images/header-background-mobile.png'); */
-
-  height: 718px;
-  max-width: 810px;
-  background: #fff;
-  display: grid;
-  grid-template-columns: auto;
-  gap: 90px;
-}
 
 .section-works {
   margin: 16px 16px;
@@ -20,9 +8,8 @@
 
 .card-works {
   height: 220px;
-  width: 295px;
-  left: 16px;
-  top: 16px;
+  max-width: 100%;
+
   border-radius: 8px;
   margin-bottom: 350px;
 }
