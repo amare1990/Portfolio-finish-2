@@ -24,10 +24,11 @@ body {
   max-width: 810px;
   /* background: #fff;  */
   background-color: #E5E5E5;
+  /*
   display: grid;
   grid-template-rows: 0.04fr 0.32fr 0.32fr 0.32fr;
   /* row-gap: 20px; */
-  grid-row-gap: 50px;
+  grid-row-gap: 50px; */
 }
 
 .container-homepage {
