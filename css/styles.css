@@ -95,8 +95,7 @@ li a i {
 
   /*
   left: 3px;
-  top: 6px; 
-  */
+  top: 6px; */
 
   color: #6070ff;
 }
@@ -234,6 +233,7 @@ li .social-network i {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+
   /* margin-bottom: 12px; */
 }
 
@@ -269,8 +269,6 @@ li .social-network i {
   align-items: center;
   gap: 10px;
   margin-bottom: 40px;
-  display: flex;
-  align-items: center;
   border: 1px solid #6070ff;
 
   /* position: absolute;  top: calc(50% - 48px/2);   border: 1px solid #6070ff; */
@@ -289,10 +287,6 @@ li .social-network i {
   color: #396df2;
 }
 
-/* Styling anchor tags   */
-a {
-  text-decoration: none;
-}
 
 /* End of Styling anchor tags   */
 .project-title .title {
@@ -389,6 +383,11 @@ a {
   margin-bottom: 36px;
 }
 
+/* Styling anchor tags */
+a {
+  text-decoration: none;
+}
+
 .frame-12 ul li {
   list-style: none;
 }
@@ -440,7 +439,7 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #253858;;
+  color: #253858;
 }
 
 .frame-9 img {
@@ -454,12 +453,12 @@ a {
   color: #505f79;
 }
 
-.skill-and-framework{
-    height: 72px;
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.skill-and-framework {
+  height: 72px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .skill-and-framework .skills-frame-9 {
@@ -472,6 +471,7 @@ a {
   align-items: center;
   color: #000;
 }
+
 .skill-and-framework .frameworks-frame-8 {
   height: 24px;
   width: 237px;
