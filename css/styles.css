@@ -104,6 +104,11 @@ li {
   list-style: none;
 }
 
+/* Styling anchor tags */
+a {
+  text-decoration: none;
+}
+
 li a {
   text-decoration-style: none;
   position: relative;
@@ -176,8 +181,7 @@ li .social-network i {
   height: 220px;
   max-width: 100%;
   border-radius: 8px;
-  margin-bottom: 350px; 
-
+  margin-bottom: 350px;
 }
 
 .section-works h1 {
@@ -348,11 +352,6 @@ li .social-network i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-/* Styling anchor tags */
-a {
-  text-decoration: none;
 }
 
 .frame-7 a {
