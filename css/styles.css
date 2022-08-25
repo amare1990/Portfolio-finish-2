@@ -325,6 +325,32 @@ li .social-network i {
   color: #396df2;
 }
 
+.tag:hover {
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgb(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.tag:active {
+  background-color: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.action:hover {
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgb(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.action:active {
+  background-color: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
 .btn span {
   height: 24px;
   width: 100%;
