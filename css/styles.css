@@ -23,12 +23,8 @@ body {
   height: 5410px;
   max-width: 810px;
   /* background: #fff;  */
-  background-color: #E5E5E5;
-  /*
-  display: grid;
-  grid-template-rows: 0.04fr 0.32fr 0.32fr 0.32fr;
-  /* row-gap: 20px; */
-  grid-row-gap: 50px; */
+  background-color: #f7f7f9;
+  margin: 44px 24px 8px 24px;
 }
 
 .container-homepage {
@@ -180,15 +176,28 @@ li .social-network i {
 
 /* Works and About-me section */
 .section-works {
-  margin: 16px 16px;
+  /* height: 2788px; */
+  max-width: 100%;
+  margin: 114px 24px 114px 24px;
+  display: grid;
+  row-gap: 88px;
 }
 
 .card-works {
-  /* height: 220px;
-   max-width: 100%; */
+  height: 552px; 
+  max-width: 100%; 
+  border: 1px solid #dfe1e6;
   border-radius: 8px;
-  margin-bottom: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
 }
+
+/*.card-works img {
+  margin: 16px 16px 12px 16px;
+}*/
 
 .section-works h1 {
   height: 36px;
@@ -316,21 +325,6 @@ li .social-network i {
   max-width: 100%;
 }
 
-/*
-.about-me-btn {
-  height: 24px;
-  width: 138px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 12px;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 12px;
-  color: #396df2;
-}
-*/
 .skill-list {
   height: 464.14678955078125px;
   max-width: 100%;
