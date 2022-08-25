@@ -22,8 +22,6 @@ body {
 .wrapper {
   height: 5410px;
   max-width: 810px;
-
-  /* background: #fff;  */
   background-color: #f7f7f9;
   margin: 44px 24px 8px 24px;
 }
@@ -43,8 +41,7 @@ body {
 
 .header-2 {
   height: 48px;
-
-  /* max-width: 100%; */
+  max-width: 100%; 
   margin: 58px 24px 0 24px;
   display: flex;
   justify-content: space-between;
@@ -87,8 +84,6 @@ li a i {
 .frame-7-languages i {
   height: 6px;
   width: 12px;
-
-  /* color: #5e6c84; */
   color: #5e6c84;
 }
 
@@ -101,11 +96,6 @@ li a i {
 .menu-bar button i {
   height: 12px;
   width: 18px;
-
-  /*
-  left: 3px;
-  top: 6px; */
-
   color: #6070ff;
 }
 
@@ -144,8 +134,8 @@ li a {
 }
 
 .description-of-me {
-  color: #344563; 
-  margin-top: 16px; 
+  color: #344563;
+  margin-top: 16px;
 }
 
 .lets-connect-about {
@@ -279,8 +269,6 @@ li .social-network i {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-
-  /* margin-bottom: 12px; */
 }
 
 .tags {
@@ -400,7 +388,6 @@ li .social-network i {
 
 /* Styling about myself section */
 .about-myself {
-  /* margin: 16px 16px; */
   max-width: 100%;
   height: 1125.15px;
   padding: 114px 24px;
