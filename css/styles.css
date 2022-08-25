@@ -92,6 +92,12 @@ li a i {
   color: #5e6c84;
 }
 
+.skill-and-framework i {
+  width: 6px;
+  height: 12px;
+  color: #5e6c84;
+}
+
 .menu-bar button i {
   height: 12px;
   width: 18px;
@@ -501,12 +507,6 @@ li .social-network i {
   display: flex;
   align-items: center;
   color: #000;
-}
-
-.skill-and-framework i {
-  width: 6px;
-  height: 12px;
-  color: #5e6c84;
 }
 
 .separator {
