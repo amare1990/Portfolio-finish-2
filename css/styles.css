@@ -125,6 +125,10 @@ li a {
 
 .section-home {
   margin: 114px 24px 136px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .name-welcome {
@@ -142,7 +146,7 @@ li a {
 .description-of-me {
   color: #344563;
 
-  /* margin-bottom: 12px; */
+  margin-top: 16px; 
 }
 
 .lets-connect-about {
