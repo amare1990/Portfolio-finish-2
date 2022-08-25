@@ -22,6 +22,7 @@ body {
 .wrapper {
   height: 5410px;
   max-width: 810px;
+
   /* background: #fff;  */
   background-color: #f7f7f9;
   margin: 44px 24px 8px 24px;
@@ -42,6 +43,7 @@ body {
 
 .header-2 {
   height: 48px;
+
   /* max-width: 100%; */
   margin: 58px 24px 0 24px;
   display: flex;
@@ -82,6 +84,14 @@ li a i {
   margin-bottom: 138px;
 }
 
+.frame-7-languages i {
+  height: 6px;
+  width: 12px;
+
+  /* color: #5e6c84; */
+  color: #5e6c84;
+}
+
 .menu-bar button i {
   height: 12px;
   width: 18px;
@@ -117,7 +127,7 @@ li a {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  height: 101x;
+  height: 101px;
   max-width: 100%;
   display: flex;
   align-items: center;
@@ -125,6 +135,7 @@ li a {
 
 .description-of-me {
   color: #344563;
+
   /* margin-bottom: 12px; */
 }
 
@@ -197,9 +208,11 @@ li .social-network i {
   padding: 16px;
   gap: 12px;
 }
+
 .multipost-card {
   height: 596px;
 }
+
 .left-block {
   display: flex;
   flex-direction: column;
@@ -431,13 +444,6 @@ li .social-network i {
   color: #000;
 }
 
-.frame-7-languages i {
-  height: 6px;
-  width: 12px;
-  /* color: #5e6c84; */
-  color: #5e6c84;
-}
-
 .language-list {
   height: 248.14678955078125px;
   max-width: 100%;
@@ -508,6 +514,7 @@ li .social-network i {
   max-width: 100%;
   background: #dfe1e6;
 }
+
 /* End of Styling about myself section */
 
 /* End of Works and About-me section */
