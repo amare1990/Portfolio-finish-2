@@ -28,25 +28,16 @@ body {
 }
 
 .container-homepage {
-  /* position: absolute; */
-
-  
-
   background: url("/images/header-shapes-mobile.png") no-repeat center center;
-  /*  height: 604.0000610351562px;
-  max-width: 100%; */
+  height: 604.0000610351562px;
+  max-width: 100%;
   border-bottom-left-radius: 80px;
   background-color: #fff;
-  /*
-  left: calc(50% - 375px / 2);
-  top: 92px;
-  */
-
-  /*padding: 114px, 24px, 114px, 24px;
+  padding: 114px, 24px;
   display: flex;
-  flex-direction: column; 
-  align-items: flex-start; 
-  gap: 12px; */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .header-2 {
@@ -117,8 +108,7 @@ li a {
 }
 
 .section-home {
-  margin-left: 24px;
-  margin-right: 24px;
+  margin: 114px 24px 136px 24px;
 }
 
 .name-welcome {
@@ -127,25 +117,33 @@ li a {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  height: 150px;
-  width: 327px;
+  height: 101x;
+  max-width: 100%;
   display: flex;
   align-items: center;
-  margin-top: 128px;
-  margin-bottom: 12px;
 }
 
 .description-of-me {
   color: #344563;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
+}
+
+.lets-connect-about {
+  height: 80px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .lets-connect-statement {
-  width: 125px;
+  max-width: 100%;
   height: 24px;
   color: #7f8cff;
   font-weight: 500;
   text-transform: uppercase;
+  line-height: 24px;
 }
 
 .contact-with-social {
@@ -158,7 +156,12 @@ li a {
 
 .social-network {
   text-decoration: none;
-  padding-right: 30px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 8px;
 }
 
 li .social-network i {
@@ -170,13 +173,13 @@ li .social-network i {
 
 .social-networks .social-network i:hover {
   color: #6070ff;
-  box-shadow: 0.001px 8px 16px rgb(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgb(64, 83, 252, 0.24);
   border-radius: 8px;
 }
 
 /* Works and About-me section */
 .section-works {
-  /* height: 2788px; */
+  height: 2788px;
   max-width: 100%;
   margin: 114px 24px 114px 24px;
   display: grid;
@@ -184,8 +187,8 @@ li .social-network i {
 }
 
 .card-works {
-  height: 552px; 
-  max-width: 100%; 
+  height: 552px;
+  max-width: 100%;
   border: 1px solid #dfe1e6;
   border-radius: 8px;
   display: flex;
@@ -194,10 +197,15 @@ li .social-network i {
   padding: 16px;
   gap: 12px;
 }
-
-/*.card-works img {
-  margin: 16px 16px 12px 16px;
-}*/
+.multipost-card {
+  height: 596px;
+}
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
 
 .section-works h1 {
   height: 36px;
@@ -210,11 +218,10 @@ li .social-network i {
 
 .frame-2 {
   height: 32px;
-  width: 236px;
+  max-width: 100%;
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 20px;
 }
 
 .frame-2 .canopy,
@@ -225,6 +232,7 @@ li .social-network i {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  padding: 8px 0;
   color: #7a869a;
   display: flex;
   align-items: center;
@@ -240,10 +248,6 @@ li .social-network i {
   color: #c1c7d0;
   display: flex;
   align-items: center;
-}
-
-.work-detail {
-  margin-bottom: -10px;
 }
 
 .work-detail p {
@@ -266,9 +270,19 @@ li .social-network i {
   margin-bottom: 12px;
 }
 
+.tag-container {
+  height: 24px;
+  width: 203px;
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 8px;
+}
+
 .tag {
+  width: 29px;
   height: 16px;
-  width: 65px;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -276,22 +290,39 @@ li .social-network i {
   color: #6070ff;
 }
 
-.lets-connect-about {
+.tag-javascript {
+  width: 65px;
+}
+
+.tag .lets-connect-about {
   margin-bottom: 22px;
 }
 
-.action .btn {
-  height: 48px;
+.action {
   width: 162px;
-  border-radius: 8px;
-  padding: 12px;
+  height: 48px;
   display: flex;
   align-items: center;
+  padding: 12px;
+  box-sizing: border-box;
   gap: 10px;
-  margin-bottom: 40px;
   border: 1px solid #6070ff;
+  border-radius: 8px;
+}
 
-  /* position: absolute;  top: calc(50% - 48px/2);   border: 1px solid #6070ff; */
+.action .btn {
+  height: 24px;
+  width: 138px;
+  border: none;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
 }
 
 .btn span {
@@ -320,9 +351,24 @@ li .social-network i {
 }
 
 /* Styling about myself section */
-.section-about-myself {
-  margin: 16px 16px;
+.about-myself {
+  /* margin: 16px 16px; */
   max-width: 100%;
+  height: 1125.15px;
+  padding: 114px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.top {
+  height: 409px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .skill-list {
@@ -330,23 +376,17 @@ li .social-network i {
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 12px;
+  align-items: center;
 }
 
-.frame-12 {
-  height: 320.14678955078125px;
+.about-myself-social-ntks {
+  height: 40px;
   max-width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  /* margin-bottom: 40px; */
-
-  margin-bottom: 36px;
+  align-items: center;
 }
 
-.frame-7 {
+.frame-7-languages {
   height: 72px;
   max-width: 100%;
   display: flex;
@@ -354,7 +394,7 @@ li .social-network i {
   align-items: center;
 }
 
-.frame-7 a {
+.frame-7-languages a {
   height: 24px;
   width: 237px;
   font-weight: 500;
@@ -365,83 +405,44 @@ li .social-network i {
   color: #000;
 }
 
-.frame-7 img {
-  height: 8px;
-  width: 14px;
+.frame-7-languages i {
+  height: 6px;
+  width: 12px;
+  /* color: #5e6c84; */
   color: #5e6c84;
 }
 
 .language-list {
   height: 248.14678955078125px;
-
-  /* width: 327px; */
-
   max-width: 100%;
-  padding: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /* gap: 12px; */
-
-  margin-bottom: 36px;
+  padding: 12px;
+  gap: 12px;
 }
 
-.frame-12 ul li {
-  list-style: none;
-}
-
-.language-list .frame-8 {
-  height: 72px;
+.frame-9-10-11 {
+  height: 66.72px;
   max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.frame-8 a {
-  height: 24px;
-  width: 237px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
-}
-
-.frame-8 img {
-  width: 48px;
-  height: 48px;
+  background-color: #f7f7f9;
   border-radius: 8px;
-  padding: 8px;
-  display: flex;
-  align-items: flex-end;
-  color: #505f79;
-}
-
-.frame-9 {
-  margin-top: 24px;
-  height: 72px;
-  max-width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
 }
 
-.frame-9 a {
+.frame-9-10-11 a {
   height: 24px;
   width: 215px;
   font-weight: 500;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 20px;
   display: flex;
   align-items: center;
   color: #253858;
 }
 
-.frame-9 img {
+.frame-9-10-11 img {
   height: 48px;
   width: 48px;
   border: 1px solid #fff;
@@ -456,11 +457,10 @@ li .social-network i {
   height: 72px;
   max-width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
-.skill-and-framework .skills-frame-9 {
+.skill-and-framework a {
   height: 24px;
   width: 237px;
   font-weight: 500;
@@ -471,73 +471,17 @@ li .social-network i {
   color: #000;
 }
 
-.skill-and-framework .frameworks-frame-8 {
-  height: 24px;
-  width: 237px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
+.skill-and-framework i {
+  width: 6px;
+  height: 12px;
+  color: #5e6c84;
 }
 
-.frame-10 {
-  margin-top: 24px;
-  height: 72px;
+.separator {
+  height: 1px;
   max-width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 16px;
+  background: #dfe1e6;
 }
-
-.frame-10 a {
-  height: 24px;
-  width: 215px;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #253858;
-}
-
-.frame-10 img {
-  height: 48px;
-  width: 48px;
-  border: 1px solid #fff;
-  display: flex;
-  align-items: center;
-}
-
-.frame-11 {
-  margin-top: 24px;
-  height: 72px;
-  max-width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.frame-11 a {
-  height: 24px;
-  width: 215px;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #253858;
-}
-
-.frame-11 img {
-  height: 48px;
-  width: 48px;
-  border: 1px solid #fff;
-  display: flex;
-  align-items: center;
-}
-
 /* End of Styling about myself section */
 
 /* End of Works and About-me section */
